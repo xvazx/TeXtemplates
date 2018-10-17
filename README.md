@@ -1,2 +1,2 @@
 # TeXtemplates
-Just a bunc of tex templates for labreports/notes
+Just a bunch of tex templates for labreports/notes
