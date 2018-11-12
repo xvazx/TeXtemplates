@@ -3,9 +3,9 @@
 % arara: pdflatex
 % arara: pdflatex
 \documentclass{article}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage[style=numeric-comp, backend=biber, sorting=none,]{biblatex}
-\nocite{*}
-\addbibresource{references.bib} 
+\addbibresource{~/Documents/Code/Tex/References/references.bib} 
 \usepackage[]{hyperref}
 \hypersetup{
 	colorlinks=true,
@@ -16,26 +16,31 @@
 \usepackage{fullpage}
 \usepackage{multicol}
 \begin{document}
-\title{\textbf{Strain Gauge Lab Report}}
-\author{Domantas Butnorius}
+\title{\textbf{<++>}}
+\author{<++>}
 \date{\today}
 \maketitle
 \pagenumbering{gobble}
 \pagenumbering{arabic}
 \section{Summary}
-\pagenumbering{gobble}
-\newpage
-\pagenumbering{arabic}
-\section{Summary}
 \tableofcontents
 \section{Introduction}
+<++>
 \subsection{Objectives}
+<++>
 \subsection{Theory}
+<++>
 \section{Method}
+<++>
 \subsection{Apparatus}
+<++>
 \section{Results}
+<++>
 \section{Discussion}
+<++>
 \section{Conclusion}
-\newpage
+<++>
+\clearpage
+\addcontentsline{toc}{section}{References}
 \printbibliography
 \end{document}
